@@ -1,23 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Debounce from './Weather/Debounce';
+import WeaApp from './Weather/WeaApp';
+import Location from './Weather/Location';
+import CuurentWea from './Weather/CuurentWea';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+     {/* <WeaApp /> */}
+     {/* <Debounce /> */}
+     {/* <Location /> */}
+     <CuurentWea />
     </div>
   );
 }
